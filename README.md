@@ -7,6 +7,7 @@ Programming Assignments from UC San Diego - DSE230X
 
 * ## Resilient Distributed Datasets (RDD)
    * Think of RDD as data in a list distributed among executors or different computers.
+   * It is a distributed immutable array.
    * The Spark Context / Head Node is our gateway to these RDDs from our main program.
    ---
    * Map - Applies operation to each element of RDD in parallel.
@@ -27,9 +28,11 @@ Programming Assignments from UC San Diego - DSE230X
    * Lazy Evaluation - Instead of mapping all data, then reducing all of it (which goes through data twice)
    * Map first value, reduce it , map second value, reduce it and update the result, ...
    * When same RDD is needed for different computations use .cache() after .map()
+   * This is in contrast to lazy eval. Spark usually doesn't cache but uses pipelined eval (lazy).
    ---
    * Partitioning used to dedicate workers to parts of RDD.
    * glom() can be used to investigate each partition.
    ---
+   
    
    
