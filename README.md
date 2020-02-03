@@ -10,6 +10,8 @@ Programming Assignments from UC San Diego - DSE230X
    * The Spark Context is our gateway to these RDDs from our main program.
    * Map - Applies operation to each element of RDD in parallel.
    * ```rdd.map(lambda x: x*x) ```
+   * Reduce - Uses reduce operators on all executors to give one final output.
+   * Reduce operator takes two inputs, gives one output.
    * Filter - ```rdd.filter(lambda x: x==10) ```
    * Collect - ```print(rdd.collect()) ```
    * Key - Iterator(or a list of values for that key) Pair - ```rdd.groupByKey().mapValues(list)```
