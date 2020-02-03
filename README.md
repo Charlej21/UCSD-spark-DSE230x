@@ -1,6 +1,6 @@
 # Big Data Analytics Using Spark
 
-Programming Assignments from UC San Diego - DSE230X
+Programming Assignments and Examples from UC San Diego - DSE230X
 >https://www.edx.org/course/big-data-analytics-using-spark
 
 ## Notes
