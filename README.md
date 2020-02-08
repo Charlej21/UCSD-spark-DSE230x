@@ -65,9 +65,16 @@ Programming Assignments and Examples from UC San Diego - DSE230X
    ---
    * Exploratory Analysis -
      * Calculate mean and standard deviation. Plot mean +- SD.
-     * Plot percentage of variance explained by top eigenvectors.
-     * Plot the top eigenvectors to get insights.
-  
+     * Plot percentage of variance explained by top eigenvectors. This gives a sense of how effective they are in approximating the            data.
+     * Plot the top eigenvectors themselves to get insights.
+   ---
+   * Residuals can be calculated by subtracting the eigenvectors from previous residuals. The 0th residual is the vector minus its mean.
+   * Each residual is normalized. The smaller the residual norm, the better the approximation.
+   * More residuals means using more eigenvectors. The best fit and worst fit can be checked. Worst fit may show outliers due to lack of      data.
+   * It is possible that the noise in the data will not be reconstructed.
+  ---
+  *  Scatter plots cannot represent the density of data effectively. Use box plots.
+  *  It may be useful to have a scatter plot between different coefficients of eigenvectors.
     
 
 
