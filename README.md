@@ -11,10 +11,8 @@ Programming Assignments and Examples from UC San Diego - DSE230X
    * The Spark Context / Head Node is our gateway to these RDDs from our main program.
    ---
    * Map - Applies operation to each element of RDD in parallel.
-   ---
    * Reduce - Uses reduce operators on all executors to give one final output.
    * Reduce operator takes two inputs, gives one output.
-   ---
    * Filter - Selectively chooses some elements out of total.
    ---
    * Parallelize - Turns a list to an RDD.
@@ -72,10 +70,10 @@ Programming Assignments and Examples from UC San Diego - DSE230X
    * Each residual is normalized. The smaller the residual norm, the better the approximation.
    * More residuals means using more eigenvectors. The best fit and worst fit can be checked. Worst fit may show outliers due to lack of      data.
    * It is possible that the noise in the data will not be reconstructed.
-  ---
-  *  Scatter plots cannot represent the density of data effectively. Use box plots.
-  *  It may be useful to have a scatter plot between different coefficients of eigenvectors.
-    
+   ---
+   *  Scatter plots cannot represent the density of data effectively. Use box plots.
+   *  It may be useful to have a scatter plot between different coefficients of eigenvectors.
+   --- 
 
 
 
