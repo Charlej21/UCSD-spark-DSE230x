@@ -51,6 +51,23 @@ Programming Assignments and Examples from UC San Diego - DSE230X
    * Data is serialized for storage, whether persistent or on HDFS.
    * When deserializing, parse and check for errors in parsing.
    ---
+   
+ * ## Principle Component Analysis
+   * Functions can be approximated with orthonormal basis functions.
+   * Orthonormal functions can be used to recover the original curve from noise added to it.
+   ---
+   * PCA consists of 2 steps -
+     * Computing the covariance matrix.
+     * Computing the eigenvalue decomposition.
+   ---
+   * NaNs in matrices to be substituted or ignored for calculations.
+   * To compute mean, and expectation together, put a 1 in front of the initial vector, then matrix multiply.
+   ---
+   * Exploratory Analysis -
+     * Calculate mean and standard deviation. Plot mean +- SD.
+     * Plot percentage of variance explained by top eigenvectors.
+     * Plot the top eigenvectors to get insights.
+  
     
 
 
