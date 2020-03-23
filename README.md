@@ -74,7 +74,14 @@ Programming Assignments and Examples from UC San Diego - DSE230X
    *  Scatter plots cannot represent the density of data effectively. Use box plots.
    *  It may be useful to have a scatter plot between different coefficients of eigenvectors.
    --- 
+   * To analyze the effect of a component on a residual, we can check the RMS after subtracting the mean over that component.
+   * We can iteratively reduce the RMS by alternatingly subtracting mean of different components. 
 
+ * ## K Means
+   *  Candidates for centers initialized, and broadcast.
+   *  In each executor, data is partitioned according to closest candidate. Key Value pair - (candidate, data value)
+   *  Mean with reduce by key, and new candidates broadcast again.
+   *  K Means fails when the intrinsic dimensions of data is high - curse of dimensionality.
 
 
 
