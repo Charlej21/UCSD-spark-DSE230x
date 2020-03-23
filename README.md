@@ -3,7 +3,7 @@
 Programming Assignments and Examples from UC San Diego - DSE230X
 >https://www.edx.org/course/big-data-analytics-using-spark
 
-## Notes
+## Notes About Spark and Data Analysis
 
 * ## Resilient Distributed Datasets (RDD)
    * Think of RDD as data in a list distributed among executors or different computers.
